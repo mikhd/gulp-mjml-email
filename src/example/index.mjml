@@ -1,0 +1,86 @@
+<mjml>
+  <mj-head>
+    <mj-title>PartsHub</mj-title>
+    <mj-attributes>
+      <mj-all font-family="Helvetica, Arial, sans-serif"/>
+      <mj-class name="bold" font-weight="bold" />
+    </mj-attributes>
+    <mj-style>
+      html {
+        background-color: #CCCCCC;
+      }
+      body {
+        font-family: Helvetica, Arial, sans-serif;
+        background-color: #CCCCCC;
+      }
+      .link {
+        color: inherit;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container width="540">
+      <mj-section
+        background-url="/assets/kitten.jpg"
+        background-size="cover"
+        background-repeat="no-repeat"
+        padding="130px 0">
+        <mj-column
+          vertical-align="middle">
+          <mj-text
+            color="#585858"
+            font-size="30"
+            align="center">
+              Hello sweetie
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0 0 0 50px" background-color="#FFFFFF" text-align="left">
+        <mj-column>
+          <mj-text
+            mj-class="bold"
+            color="#373A3C"
+            font-size="20"
+            padding="52px 0 10px 0">
+              Hey ho!
+          </mj-text>
+
+          <mj-text
+            color="#000000"
+            font-size="15"
+            padding="0 0 21px 0"
+            letter-spacing="0.2px">
+            Hi {{userName}}
+          </mj-text>
+
+          <mj-text
+            color="#000000"
+            font-size="15"
+            padding="0 0 0 0">
+            Thank you,
+          </mj-text>
+
+          <mj-text
+            color="#000000"
+            font-size="15"
+            padding="0 0 28px 0">
+            {{userName}}
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="50px 60px 43px 60px" background-color="#FAFAFA" text-align="center">
+        <mj-column>
+          <mj-text
+            color="#999999"
+            font-size="12"
+            align="center"
+            padding="0 0 22px 0"
+            line-height="17px">
+            Footer notes
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
